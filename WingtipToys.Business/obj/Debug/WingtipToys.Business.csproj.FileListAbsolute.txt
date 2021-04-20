@@ -1,0 +1,9 @@
+D:\Repository\ITMO.APSNET\Task3\WingtipToys.Business\bin\Debug\WingtipToys.Business.dll
+D:\Repository\ITMO.APSNET\Task3\WingtipToys.Business\bin\Debug\WingtipToys.Business.pdb
+D:\Repository\ITMO.APSNET\Task3\WingtipToys.Business\bin\Debug\WingtipToys.Data.dll
+D:\Repository\ITMO.APSNET\Task3\WingtipToys.Business\bin\Debug\WingtipToys.Data.pdb
+D:\Repository\ITMO.APSNET\Task3\WingtipToys.Business\obj\Debug\WingtipToys.Business.csprojAssemblyReference.cache
+D:\Repository\ITMO.APSNET\Task3\WingtipToys.Business\obj\Debug\WingtipToys.Business.csproj.CoreCompileInputs.cache
+D:\Repository\ITMO.APSNET\Task3\WingtipToys.Business\obj\Debug\WingtipToys.Business.csproj.CopyComplete
+D:\Repository\ITMO.APSNET\Task3\WingtipToys.Business\obj\Debug\WingtipToys.Business.dll
+D:\Repository\ITMO.APSNET\Task3\WingtipToys.Business\obj\Debug\WingtipToys.Business.pdb
