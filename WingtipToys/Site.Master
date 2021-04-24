@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WingtipToys.Site" %>
+﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WingtipToys.Site" %>
 
 <!DOCTYPE html>
 
@@ -68,7 +68,7 @@
         </div>
         <div id="CategoryMenu" style="text-align: center">       
             <asp:ListView ID="categoryList"  
-                ItemType="WingtipToys.Data.Models.Category" 
+                ItemType="WingtipToys.Data.ModelsCodeFirst.Category" 
                 runat="server"
                 SelectMethod="GetCategories" >
                 <ItemTemplate>

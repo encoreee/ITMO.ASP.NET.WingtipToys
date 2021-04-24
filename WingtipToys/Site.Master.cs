@@ -9,8 +9,7 @@ using System.Web.UI.WebControls;
 using System.Linq;
 using WingtipToys.Business;
 using WingtipToys.Data;
-using WingtipToys.Data.Models;
-using WingtipToys.Models;
+using WingtipToys.Data.ModelsCodeFirst;
 
 namespace WingtipToys
 {
@@ -19,7 +18,7 @@ namespace WingtipToys
         private const string AntiXsrfTokenKey = "__AntiXsrfToken";
         private const string AntiXsrfUserNameKey = "__AntiXsrfUserName";
         private string _antiXsrfTokenValue;
-        private static readonly IStoreService _service = new StoreService(new InMemoryProductRepository(), new InMemoryCategoryRepository());
+        private static readonly IStoreService _service = new StoreService(new SqlProductRepository(), new SqlCategoryRepository());
         protected void Page_Init(object sender, EventArgs e)
         {
             // The code below helps to protect against XSRF attacks

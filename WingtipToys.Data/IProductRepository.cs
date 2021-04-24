@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using WingtipToys.Data.Models;
+using WingtipToys.Data.ModelsCodeFirst;
 
 namespace WingtipToys.Data
 {

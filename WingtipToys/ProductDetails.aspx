@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Product Details" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" 
          CodeBehind="ProductDetails.aspx.cs" Inherits="WingtipToys.ProductDetails" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:FormView ID="productDetail" runat="server" ItemType="WingtipToys.Data.Models.Product" SelectMethod ="GetProduct" RenderOuterTable="false">
+    <asp:FormView ID="productDetail" runat="server" ItemType="WingtipToys.Data.Product" SelectMethod ="GetProduct" RenderOuterTable="false">
         <ItemTemplate>
             <div>
                 <h1><%#:Item.ProductName %></h1>
@@ -10,7 +10,7 @@
             <table>
                 <tr>
                     <td>
-                        <img src="<%#:Item.ImagePath %>" style="border:solid; height:300px" alt="<%#:Item.ProductName %>"/>
+                        <img src="/Catalog/Images/Thumbs/<%#:Item.ImagePath %>" style="border:solid; height:300px" alt="<%#:Item.ProductName %>"/>
                     </td>
                     <td>&nbsp;</td>  
                     <td style="vertical-align: top; text-align:left;">

@@ -7,13 +7,13 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using WingtipToys.Business;
 using WingtipToys.Data;
-using WingtipToys.Data.Models;
+using WingtipToys.Data.ModelsCodeFirst;
 
 namespace WingtipToys
 {
     public partial class ProductCreate : System.Web.UI.Page
     {
-        private static readonly IStoreService _service = new StoreService(new InMemoryProductRepository(), new InMemoryCategoryRepository());
+        private static readonly IStoreService _service = new StoreService(new SqlProductRepository(), new SqlCategoryRepository());
         private readonly HttpClient _httpClient = new HttpClient() { Timeout = TimeSpan.FromSeconds(5) };
 
         protected void Page_Load(object sender, EventArgs e)
@@ -48,7 +48,7 @@ namespace WingtipToys
                 var product = new Product
                 {
                     ProductName = Name.Text,
-                    UnitPrice = decimal.Parse(PriceInput.Text),
+                    UnitPrice = (double?)decimal.Parse(PriceInput.Text),
                     ImagePath = Path.Text,
                     CategoryID = int.Parse(CategoryList.SelectedValue),
                     Description = Description.Value
@@ -79,7 +79,7 @@ namespace WingtipToys
                     ProductName = Request.Form["myname"], //Find some more
                     Description = "ссссс.",
                     ImagePath = "/Catalog/Images/Thumbs/carmy.png",
-                    UnitPrice = 122.95m,
+                    UnitPrice = (double?)122.95m,
                     CategoryID = 5
                 };
                 var created = _service.CreateProduct(product);

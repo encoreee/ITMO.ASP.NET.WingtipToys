@@ -116,3 +116,4 @@ D:\Repository\ITMO.ASP.NET.WingtipToys\WingtipToys\bin\Microsoft.Owin.Security.T
 D:\Repository\ITMO.ASP.NET.WingtipToys\WingtipToys\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Repository\ITMO.ASP.NET.WingtipToys\WingtipToys\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Repository\ITMO.ASP.NET.WingtipToys\WingtipToys\obj\Debug\WingtipToys.csproj.CopyComplete
+D:\Repository\ITMO.ASP.NET.WingtipToys\WingtipToys\bin\WingtipToys.Data.dll.config
