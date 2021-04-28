@@ -8,6 +8,12 @@ namespace WingtipToys.Data.ModelsCodeFirst
 
     public partial class Product
     {
+
+        public Product()
+        {
+            Orders = new HashSet<Order>();
+        }
+
         public int ProductID { get; set; }
 
         [Required]
@@ -24,5 +30,11 @@ namespace WingtipToys.Data.ModelsCodeFirst
         public int? CategoryID { get; set; }
 
         public virtual Category Category { get; set; }
+
+        public int? ManufacturerID { get; set; }
+
+        public virtual Manufacturer Manufacturer { get; set; }
+
+        public virtual ICollection<Order> Orders { get; set; }
     }
 }

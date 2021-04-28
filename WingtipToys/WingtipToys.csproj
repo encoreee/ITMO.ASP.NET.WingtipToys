@@ -301,10 +301,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Category.cs" />
-    <Compile Include="Models\Product.cs" />
-    <Compile Include="Models\ProductContext.cs" />
-    <Compile Include="Models\ProductDatabaseInitializer.cs" />
     <Compile Include="ProductCreate.aspx.cs">
       <DependentUpon>ProductCreate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

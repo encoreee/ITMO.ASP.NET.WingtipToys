@@ -19,6 +19,7 @@ namespace WingtipToys
         private const string AntiXsrfUserNameKey = "__AntiXsrfUserName";
         private string _antiXsrfTokenValue;
         private static readonly IStoreService _service = new StoreService(new SqlProductRepository(), new SqlCategoryRepository());
+        
         protected void Page_Init(object sender, EventArgs e)
         {
             // The code below helps to protect against XSRF attacks

@@ -6,7 +6,6 @@ D:\Repository\ITMO.APSNET\Task3\WingtipToys.Data\obj\Debug\WingtipToys.Data.dll
 D:\Repository\ITMO.APSNET\Task3\WingtipToys.Data\obj\Debug\WingtipToys.Data.pdb
 D:\Repository\ITMO.ASP.NET.WingtipToys\WingtipToys.Data\bin\Debug\WingtipToys.Data.dll
 D:\Repository\ITMO.ASP.NET.WingtipToys\WingtipToys.Data\bin\Debug\WingtipToys.Data.pdb
-D:\Repository\ITMO.ASP.NET.WingtipToys\WingtipToys.Data\obj\Debug\WingtipToys.Data.csprojAssemblyReference.cache
 D:\Repository\ITMO.ASP.NET.WingtipToys\WingtipToys.Data\obj\Debug\WingtipToys.Data.csproj.CoreCompileInputs.cache
 D:\Repository\ITMO.ASP.NET.WingtipToys\WingtipToys.Data\obj\Debug\WingtipToys.Data.dll
 D:\Repository\ITMO.ASP.NET.WingtipToys\WingtipToys.Data\obj\Debug\WingtipToys.Data.pdb

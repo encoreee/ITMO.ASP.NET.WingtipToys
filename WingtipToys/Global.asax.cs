@@ -7,7 +7,7 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 using System.Data.Entity;
-using WingtipToys.Models;
+using WingtipToys.Data.ModelsCodeFirst;
 
 namespace WingtipToys
 {
@@ -20,7 +20,7 @@ namespace WingtipToys
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             // Initialize the product database.
-            Database.SetInitializer(new ProductDatabaseInitializer());
+            Database.SetInitializer(new WingtipDbInitializer());
 
             // Add Routes.
             RegisterCustomRoutes(RouteTable.Routes);

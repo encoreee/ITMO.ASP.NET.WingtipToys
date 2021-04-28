@@ -51,8 +51,12 @@
   <ItemGroup>
     <Compile Include="IProductRepository.cs" />
     <Compile Include="ICategoryRepository.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelsCodeFirst\Category.cs" />
+    <Compile Include="ModelsCodeFirst\Manufacturer.cs" />
+    <Compile Include="ModelsCodeFirst\Order.cs" />
     <Compile Include="ModelsCodeFirst\Product.cs" />
+    <Compile Include="ModelsCodeFirst\WingtipDbInitializer.cs" />
     <Compile Include="ModelsCodeFirst\WingtipToysModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
